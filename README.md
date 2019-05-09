@@ -4,10 +4,10 @@
 A simple Android app to recognize colors using camera
 
 ## Summary
--[1. Introduction](#1-introduction)
--[2. Library](#2-library)
--[3. How to get it](#3-how-to-get-it)
--[4. Authorship](#4-authorship)
+- [1. Introduction](#1-introduction)
+- [2. Library](#2-library)
+- [3. How to get it](#3-how-to-get-it)
+- [4. Authorship](#4-authorship)
 
 ## 1. Introduction
 

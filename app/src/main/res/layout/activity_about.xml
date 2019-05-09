@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.acitivities.AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="@string/about"
+        android:id="@+id/about_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/facebook"
+        android:textColor="@android:color/white"
+        android:id="@+id/facebook"
+        android:background="#0a44d9"
+        app:layout_constraintTop_toBottomOf="@id/about_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:text="@string/instagram"
+        android:background="#d99e0a"
+        android:id="@+id/instagram"
+        app:layout_constraintTop_toBottomOf="@id/facebook"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/github"
+        android:textColor="@android:color/white"
+        android:id="@+id/github"
+        android:background="#1d1d1d"
+        app:layout_constraintTop_toBottomOf="@id/instagram"/>
+
+</android.support.constraint.ConstraintLayout>
